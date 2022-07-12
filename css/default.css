@@ -1,44 +1,110 @@
-* {padding:0; margin:0;}
-html {background-color:#ccc;}
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-color: #ccc;
+	height: 80vh;
+}
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	max-width:960px; /* keeps from getting too large on wide screen */
-	width:90%; /* shrink to fit screen */
-	margin:auto; /* center in html element */
-	background-color:#fff;
-	padding:20px;
-	min-height:100%; /* keeps from getting too large on wide screen */
-	}
-img.flexible {
-	float:right;
-	display:inline-block;
-	padding:20px;
-	max-width:300px; /* actual size of image */
-	width:33%; /* approximate size taken on screen in maximum view */
+	max-width: 960px;
+	/* keeps from getting too large on wide screen */
+	width: 90%;
+	/* shrink to fit screen */
+	margin: auto;
+	/* center in html element */
+	background-color: #fff;
+	padding: 20px;
+	min-height: 100%;
+	/* keeps from getting too large on wide screen */
 }
-p {margin:10px;}
-h1,h2,h3,h4,h5,h6{
-	font-weight:normal;
-	margin:10px;
-	}
-h1.masthead {margin-top:0;}
-footer {
-	text-align:center;
-	clear:both; /* ride below all items */
-	}
-nav{
-	text-align:center; /* centers the nav */
+
+h2 {
+	display: flex;
+	justify-content: center;
+	font-family: 'Cormorant', serif;
+
+}
+
+img.flexible {
+	float: right;
+	display: inline-block;
+	padding: 20px;
+	max-width: 300px;
+	/* actual size of image */
+	width: 33%;
+	/* approximate size taken on screen in maximum view */
+	border-radius: 30px;
+}
+
+nav {
+	text-align: center;
+	/* centers the nav */
 }
 
 nav ul {
-		list-style:none; /* removes the bullets */
-	}
-nav ul li
-	{
-		display:inline-block; /* makes horizontal, but able to declare margins */
-		margin:0 2%; /* margin left-right, gets smaller as necessary */
-	}
-nav a:hover{
+	list-style: none;
+	/* removes the bullets */
+}
+
+nav ul li {
+	display: inline-block;
+	/* makes horizontal, but able to declare margins */
+	margin: 0 2%;
+	/* margin left-right, gets smaller as necessary */
+
+}
+
+nav a:hover {
 	text-decoration: none;
-}	
+}
+
+img.description {
+	border-radius: 40px;
+	font-family: 'Cormorant', serif;
+
+
+}
+
+strong.feature {
+	color: rgb(78, 73, 73);
+	font-weight: bolder;
+	font-size: x-large;
+	font-family: 'Cormorant', serif;
+}
+
+
+p {
+	margin: 10px;
+}
+
+p.am {
+	color: rgb(23, 68, 23);
+	font-family: 'Cormorant', serif;
+	font-size: x-large;
+}
+
+h1.masthead {
+	font-family: 'Cormorant', serif;
+	margin-top: 0;
+	color: rgb(23, 68, 23);
+
+}
+
+div.content {
+	display: center;
+	align-items: center;
+	margin-top: 90px;
+	font-family: 'Cormorant', serif;
+
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 10px;
+
+	/* ride below all items */
+}
